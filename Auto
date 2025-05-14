@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Автомир</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      background-color: #1e1e1e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #333;
+    }
+    .models img {
+      width: 100%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #1e1e1e;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Автомир</h1>
+    <nav>
+      <a href="#about">О нас</a>
+      <a href="#models">Модели</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>О нас</h2>
+    <p>Мы — сообщество автолюбителей, которое делится последними новостями, обзорами и рекомендациями по выбору автомобилей.</p>
+  </section>
+
+  <section id="models" class="models">
+    <h2>Популярные модели</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Toyota_Corolla_2020.jpg" alt="Toyota Corolla" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/BMW_G30_IMG_3808.jpg" alt="BMW 5 Series" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Lada_Vesta_2015_IMG_7190.jpg" alt="Lada Vesta" />
+  </section>
+
+  <section id="contact">
+    <h2>Контакты</h2>
+    <p>Email: info@avtomir.ru</p>
+    <p>Телефон: +7 (495) 123-45-67</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Автомир. Все права защищены.</p>
+  </footer>
+
+</body>
+</html>
